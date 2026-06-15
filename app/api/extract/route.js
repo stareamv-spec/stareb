@@ -166,7 +166,7 @@ ${pdf_text_content}`;
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "openrouter/auto",
+        model: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428:free",
         max_tokens: 250000,
         messages: [
           {
