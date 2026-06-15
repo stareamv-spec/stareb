@@ -21,7 +21,7 @@ export async function POST(req) {
   }
 
   const { pdf_text_content } = body;
-  print(pdf_text_content)
+  console.log(pdf_text_content)
   if (!pdf_text_content) {
     return NextResponse.json(
       { error: "pdf_text_content is required" },
